@@ -1,0 +1,46 @@
+form{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin:auto;
+    width: 50%;
+    
+}
+
+#input {
+    grid-column-start: 1;
+    width: 50%;
+    border-radius: 6px;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    font-family: "roboto"
+}
+
+#select {
+    grid-column-start: 2;
+    width: 50%;
+    border-radius: 6px;
+    font-size: 20px;
+    margin: auto;
+    font-family: "roboto";
+    
+}
+
+button {
+    grid-column-start: 3;
+    width: 100%;
+    margin: auto;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: "roboto"
+}
+
+#error {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    font-size: 25px;
+    text-align: center;
+    color: #FF7979;
+    font-family: "roboto";
+    padding-top: 10px;
+}
