@@ -15,6 +15,6 @@ The requirements this project must satisfy are:
 
 ### Challenges
 
-
+Since it was the first project using a third party API, I needed a way to host the project and hide my API key for secuirty. To solve this issue I decided to host the demo on Heroku that allows the API key to be hidden and stored on their cloud platform.
 
 ### Improvements
